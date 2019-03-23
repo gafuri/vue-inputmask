@@ -27,6 +27,10 @@ Vue.use(VueInputMask)
 <script src="./node_modules/inputmask/dist/inputmask/dependencyLibs/inputmask.dependencyLib.js"></script>
 <script src="./node_modules/inputmask/dist/inputmask/inputmask.js"></script>
 <script src="./dist/vue-inputmask-browser.js"></script>
+
+<script>
+  Vue.use(VueInputmask)
+</script>
 ```
 
 # Usage
